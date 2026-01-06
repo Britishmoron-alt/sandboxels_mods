@@ -1,4 +1,6 @@
 // Register keyboard event listeners globally once
+
+//TO USE, PRESS S, and it will gen on right side of screen. The element is in Machines.
 if (!window.wasd_keys) {
     window.wasd_keys = {};
     window.addEventListener('keydown', function(e) {
@@ -15,9 +17,9 @@ if (!window.wasd_keys) {
 
 // Define the new element
 elements.controllable_life = {
-    color: "#ff00ff", // Magenta color
+    color: "purple", 
     state: "solid",
-    category: "life",
+    category: "machines",
     density: 1000,
     behavior: behaviors.POWDER, // Start with a basic behavior
     tick: function(pixel) {
