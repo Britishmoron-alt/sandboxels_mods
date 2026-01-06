@@ -1,12 +1,12 @@
 // custom_gas_mod.js
 
 // Define the custom volatile gas element
-elements.volatile_gas = {
+elements.Hydroxygen = {
     color: "#ffdd55", // A yellowish color for visibility
     behavior: behaviors.GAS, // Makes the element behave as a gas
     category: "gases", // Places it in a custom or existing category
     state: "gas",
-    density: 0.5, // Less dense than air (air is 1)
+    density: 5.5, // Less dense than air (air is 1)
     reactions: {
         "fire": { // Reaction when touching "fire"
             elem1: null, // The gas disappears
